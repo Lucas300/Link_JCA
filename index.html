@@ -8,29 +8,19 @@
 
   <title>Portal de Tecnologia | Grupo JCA</title>
 
-    <link rel="icon" type="image/png" href="./img/logoRegional.png">
+  <link rel="icon" type="image/png" href="./img/logoRegional.png">
 
 
   <!-- Bootstrap -->
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-  >
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Bootstrap Icons -->
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-  >
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
   <!-- Google Font -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-    rel="stylesheet"
-  >
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
   <style>
-
     /* =========================================================
        CORES
     ========================================================= */
@@ -166,11 +156,9 @@
 
 
     .hero-content {
-      background: linear-gradient(
-        135deg,
-        var(--jca-navy),
-        var(--jca-blue)
-      );
+      background: linear-gradient(135deg,
+          var(--jca-navy),
+          var(--jca-blue));
 
       border-radius: 20px;
 
@@ -240,9 +228,9 @@
 
       gap: 7px;
 
-      background: rgba(255,255,255,.10);
+      background: rgba(255, 255, 255, .10);
 
-      border: 1px solid rgba(255,255,255,.15);
+      border: 1px solid rgba(255, 255, 255, .15);
 
       padding: 7px 13px;
 
@@ -273,7 +261,7 @@
 
 
     .hero p {
-      color: rgba(255,255,255,.75);
+      color: rgba(255, 255, 255, .75);
 
       font-size: 15px;
 
@@ -359,7 +347,7 @@
     .search-box input:focus {
       border-color: var(--jca-teal);
 
-      box-shadow: 0 0 0 3px rgba(84,162,166,.12);
+      box-shadow: 0 0 0 3px rgba(84, 162, 166, .12);
     }
 
 
@@ -463,7 +451,7 @@
 
       box-shadow: var(--shadow-hover);
 
-      border-color: rgba(84,162,166,.35);
+      border-color: rgba(84, 162, 166, .35);
 
       color: inherit;
     }
@@ -519,10 +507,8 @@
 
       height: 35px;
 
-      background: linear-gradient(
-        transparent,
-        rgba(0,0,0,.08)
-      );
+      background: linear-gradient(transparent,
+          rgba(0, 0, 0, .08));
 
       pointer-events: none;
     }
@@ -623,13 +609,13 @@
 
       justify-content: center;
 
-      background: rgba(255,255,255,.94);
+      background: rgba(255, 255, 255, .94);
 
       color: #7b838d;
 
       font-size: 13px;
 
-      box-shadow: 0 2px 8px rgba(0,0,0,.08);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
 
       transition: .2s;
 
@@ -781,7 +767,6 @@
       }
 
     }
-
   </style>
 
 </head>
@@ -802,17 +787,13 @@
 
         <div class="logo-divider"></div>
 
-        <img
-          src="./img/logoRegional.png"
-          class="logo-cometa"
-          alt="Viação Cometa"
-        >
+        <img src="./img/logoRegional.png" class="logo-cometa" alt="Viação Cometa">
 
       </div>
 
 
       <div class="header-title">
-        Central de Soluções SPO     </div>
+        Central de Soluções SPO </div>
     </div>
 
   </header>
@@ -872,12 +853,7 @@
 
         <i class="bi bi-search"></i>
 
-        <input
-          type="text"
-          id="searchInput"
-          placeholder="Buscar projeto..."
-          onkeyup="searchProjects()"
-        >
+        <input type="text" id="searchInput" placeholder="Buscar projeto..." onkeyup="searchProjects()">
 
       </div>
 
@@ -891,42 +867,27 @@
 
     <div class="filters">
 
-      <button
-        class="filter-btn active"
-        onclick="filterProjects('todos', this)"
-      >
+      <button class="filter-btn active" onclick="filterProjects('todos', this)">
         Todos
       </button>
 
 
-      <button
-        class="filter-btn"
-        onclick="filterProjects('dashboard', this)"
-      >
+      <button class="filter-btn" onclick="filterProjects('dashboard', this)">
         Dashboards
       </button>
 
 
-      <button
-        class="filter-btn"
-        onclick="filterProjects('automacao', this)"
-      >
+      <button class="filter-btn" onclick="filterProjects('automacao', this)">
         Automação
       </button>
 
 
-      <button
-        class="filter-btn"
-        onclick="filterProjects('sistema', this)"
-      >
+      <button class="filter-btn" onclick="filterProjects('sistema', this)">
         Sistemas
       </button>
 
 
-      <button
-        class="filter-btn"
-        onclick="filterProjects('outros', this)"
-      >
+      <button class="filter-btn" onclick="filterProjects('outros', this)">
         Outros
       </button>
 
@@ -938,30 +899,19 @@
          GRID DE PROJETOS
     ====================================================== -->
 
-    <div
-      class="projects-grid"
-      id="projectsGrid"
-    >
+    <div class="projects-grid" id="projectsGrid">
 
 
       <!-- =================================================
            PROJETO 1
       ================================================== -->
 
-      <a
-        href="https://SEU-LINK-AQUI.com"
-        target="_blank"
-        class="project-card"
-        data-category="dashboard"
-        data-name="Dashboard de Transportes"
-      >
+      <a href="https://script.google.com/macros/s/AKfycbwNZZwsEb_bsnjxqMlpS6pgEZtKfRqsINm73qULyUicz874pNItn-OzOvMBWNHeLNZ-GA/exec?modo=editar"
+        target="_blank" class="project-card" data-category="dashboard" data-name="Dashboard de Transportes">
 
         <div class="project-image">
 
-          <img
-            src="./img/doc.png"
-            alt="Dashboard de Transportes"
-          >
+          <img src="./img/imagensProjetos/doc.png" alt="Dashboard de Transportes">
 
         </div>
 
@@ -976,7 +926,7 @@
 
 
           <h3>
-            Dashboard de Documentação
+            Documentação dos veículos
           </h3>
 
 
@@ -997,23 +947,279 @@
 
 
       <!-- =================================================
-           PROJETO 2
+           PROJETO 6
       ================================================== -->
 
-      <a
-        href="https://SEU-LINK-AQUI.com"
-        target="_blank"
-        class="project-card"
-        data-category="sistema"
-        data-name="Controle de Monitrips"
-      >
+      <a href="https://www.appsheet.com/start/cda21ea8-1acd-4f61-a754-7a3fac9fa1fc?platform=desktop#appName=Controle-ExcessosdeVelocidade-207477742&vss=H4sIAAAAAAAAA6WOOw7CMBAF7_Jqn8AtoogQNCAaTGHsjWSR2FHsBCLLd2fDR9AC5b7VjCZjdHTZJm3OkIf8vlY0QSIr7KaOFKTCIvjUh0ZBKGx0-xgrb53RNvQUFQrKUbwUiSJk_tog_24QcJZ8crWjftbNMGueKL9nkIcPDEWgHZI-NXQvZ6wU3upghkh2z0G_hcTKL6-d9nYdLFtr3UQqN9PTsq10AQAA&view=Indicadores"
+        target="_blank" class="project-card" data-category="automacao" data-name="Automação de Relatórios">
 
         <div class="project-image">
 
-          <img
-            src="./img/MONITRIP.png"
-            alt="Controle de Monitrips"
-          >
+          <img src="./img/imagensProjetos/ControleMedidas.jpeg" alt="Automação de Relatórios">
+
+        </div>
+
+
+        <div class="project-content">
+
+          <div class="card-arrow">
+
+            <i class="bi bi-arrow-up-right"></i>
+
+          </div>
+
+
+          <h3>
+            Controle de medidas
+          </h3>
+
+
+          <p>
+            Geração e envio automatizado de relatórios
+            e informações operacionais.
+          </p>
+
+
+          <span class="project-category">
+            Automação
+          </span>
+
+        </div>
+
+      </a>
+
+
+
+
+      <!-- =================================================
+           PROJETO 4
+      ================================================== -->
+
+      <a href="https://script.google.com/a/macros/viacaocometa.com.br/s/AKfycbxmM-zrK0iHZ6jh20n-QiNpx-IlIHO2S2ZUpXBvBte321433LyayyOjhhMxSUTcKO5-/exec"
+        target="_blank" class="project-card" data-category="sistema" data-name="Controle de Pendências">
+
+        <div class="project-image">
+
+          <img src="./img/imagensProjetos/Espelho.jpeg" alt="Controle de Pendências">
+
+        </div>
+
+
+        <div class="project-content">
+
+          <div class="card-arrow">
+
+            <i class="bi bi-arrow-up-right"></i>
+
+          </div>
+
+
+          <h3>
+            Discos de Tacógrafo
+          </h3>
+
+
+          <p>
+            Gestão de tarefas, responsáveis, prazos
+            e status das pendências.
+          </p>
+
+
+          <span class="project-category">
+            Sistema
+          </span>
+
+        </div>
+
+      </a>
+
+
+
+      <!-- =================================================
+           PROJETO 5
+      ================================================== -->
+
+      <a href="https://script.google.com/a/macros/viacaocometa.com.br/s/AKfycbyF0Ylphpdxxpp2hdFB4P2EYXi5fqHnG4drA6RCXHwWjB_CvPzQmD-nCyhc9Tq7ARmZVg/exec"
+        target="_blank" class="project-card" data-category="dashboard" data-name="Dashboard de Peças">
+
+        <div class="project-image">
+
+          <img src="./img/imagensProjetos/Disco.jpeg" alt="Dashboard de Peças">
+
+        </div>
+
+
+        <div class="project-content">
+
+          <div class="card-arrow">
+
+            <i class="bi bi-arrow-up-right"></i>
+
+          </div>
+
+
+          <h3>
+            Espelhos de Ponto
+          </h3>
+
+
+          <p>
+            Acompanhamento de movimentações,
+            estoque e indicadores de peças.
+          </p>
+
+
+          <span class="project-category">
+            Dashboard
+          </span>
+
+        </div>
+
+      </a>
+
+
+
+      
+
+      <!-- =================================================
+           PROJETO 7
+      ================================================== -->
+
+      <a href="https://www.appsheet.com/start/7181c696-36a7-4cee-85d8-6cd7141ebb15?platform=desktop#appName=ControledeDaily-207477742&vss=H4sIAAAAAAAAA52OvQ7CMAyE3-XmPEFWhARCsIBYSIfQuFKgTaomBaoo747Dj1iBzT7fd76Ei6XrNur6DHlIn21FEySSwm7qSUEqzLyLg28VhMJGd09x4U88ZORKvNlIATJ9j8r_vwpYQy7axtJQcgrF_IvhcyFYKH5kgW6M-tjSoyT7c2at8fUYyOy5wo-vw9LNb712Zu0NxzW6DZTvmFNLjVEBAAA=&view=Hoje"
+        target="_blank" class="project-card" data-category="automacao" data-name="Automação de Relatórios">
+
+        <div class="project-image">
+
+          <img src="./img/imagensProjetos/daily.jpeg" alt="Automação de Relatórios">
+
+        </div>
+
+
+        <div class="project-content">
+
+          <div class="card-arrow">
+
+            <i class="bi bi-arrow-up-right"></i>
+
+          </div>
+
+
+          <h3>
+            Controle Daily
+          </h3>
+
+
+          <p>
+            Geração e envio automatizado de relatórios
+            e informações operacionais.
+          </p>
+
+
+          <span class="project-category">
+            Automação
+          </span>
+
+        </div>
+
+      </a>
+
+
+
+      <!-- =================================================
+           PROJETO 8
+      ================================================== -->
+
+      <a href="https://www.appsheet.com/start/03ebca89-3c56-4be9-9abf-436c9523a0bb?platform=desktop#appName=EscalaFlorian%C3%B3polis-4710002&vss=H4sIAAAAAAAAA6WOMQ7CMBAE_7K1X-AWUUQIGhANpjD2RbJI7Ch2ApHlv3MhIOqI8uY0u5sxOnockzZ3yEv-XTuaIJEVTlNHClJhE3zqQ6MgFA66XWDlnXFBoaBcxddOFCHzGln-0yzgLPnkakf9nDR7nPCx-D07DBYDRaAdkr419J7KRinM6mCGSPbMM1bXx8pvn532dh8sB9a6iVReRJweZFsBAAA=&view=Inicio"
+        target="_blank" class="project-card" data-category="automacao" data-name="Automação de Relatórios">
+
+        <div class="project-image">
+
+          <img src="./img/imagensProjetos/rrp.jpeg" alt="Automação de Relatórios">
+
+        </div>
+
+
+        <div class="project-content">
+
+          <div class="card-arrow">
+
+            <i class="bi bi-arrow-up-right"></i>
+
+          </div>
+
+
+          <h3>
+            Escala Rapido Ribeirão Preto
+          </h3>
+
+
+          <p>
+            Geração e envio automatizado de relatórios
+            e informações operacionais.
+          </p>
+
+
+          <span class="project-category">
+            Automação
+          </span>
+
+        </div>
+
+      </a>
+
+
+
+      <!-- =================================================
+           PROJETO 9
+      ================================================== -->
+
+      <a href="https://www.appsheet.com/start/36d27e38-9eae-446e-b4dd-c30d2d0a65f4?platform=desktop#appName=BDVREGIONALS%C3%83OPAULO-4710002-26-07-10&vss=H4sIAAAAAAAAA6WOvQrCMBRGX0W-OU-QVRyK6GJxMQ6xuYVgmhSTqiXk3b31B13V8X6XczgZZ0uXTdLNEXKX39eSRkhkhXrsSUEqzINPp-AUhMJad4-xJqdnlbeN1fwpKHvxciSKkPl7hfy_QsAa8sm2lk6Tb6LZ82T5PZE8fHIoAt2Q9MHRPZ65UnhrQzNEMltO-jElVn5x7bU3q2BY22oXqdwAYd0Jz3kBAAA=&view=Tela%20Inicial"
+        target="_blank" class="project-card" data-category="automacao" data-name="Automação de Relatórios">
+
+        <div class="project-image">
+
+          <img src="./img/imagensProjetos/bdv.jpeg" alt="Automação de Relatórios">
+
+        </div>
+
+
+        <div class="project-content">
+
+          <div class="card-arrow">
+
+            <i class="bi bi-arrow-up-right"></i>
+
+          </div>
+
+
+          <h3>
+            Controle BDV e Folha de Ponto
+          </h3>
+
+
+          <p>
+            Geração e envio automatizado de relatórios
+            e informações operacionais.
+          </p>
+
+
+          <span class="project-category">
+            Automação
+          </span>
+
+        </div>
+
+      </a>
+      <!-- =================================================
+           PROJETO 2
+      ================================================== -->
+
+      <a href="https://script.google.com/macros/s/AKfycbxgpsmMClxdkMxGumhCOL6KQX4Uq9qnIwyGPpXYrrm5PEXz_gvhpOSXRGd0IEp3hQMB/exec"
+        target="_blank" class="project-card" data-category="sistema" data-name="Controle de Monitrips">
+
+        <div class="project-image">
+
+          <img src="./img/imagensProjetos/monitripTrafego.png" alt="Controle de Monitrips">
 
         </div>
 
@@ -1049,23 +1255,15 @@
 
 
       <!-- =================================================
-           PROJETO 3
+           PROJETO 2
       ================================================== -->
 
-      <a
-        href="https://SEU-LINK-AQUI.com"
-        target="_blank"
-        class="project-card"
-        data-category="automacao"
-        data-name="Controle de Fluxo e Manutenção"
-      >
+      <a href="https://script.google.com/macros/s/AKfycbxgpsmMClxdkMxGumhCOL6KQX4Uq9qnIwyGPpXYrrm5PEXz_gvhpOSXRGd0IEp3hQMB/exec?perfil=adm"
+        target="_blank" class="project-card" data-category="sistema" data-name="Controle de Monitrips">
 
         <div class="project-image">
 
-          <img
-            src="./img/dash.png"
-            alt="Controle de Fluxo e Manutenção"
-          >
+          <img src="./img/imagensProjetos/MONITRIP.png" alt="Controle de Monitrips">
 
         </div>
 
@@ -1080,65 +1278,13 @@
 
 
           <h3>
-            Controle de Fluxo e Manutenção
+            Controle de Monitrips (ADM)
           </h3>
 
 
           <p>
-            Automação para acompanhamento de veículos
-            e anormalidades de telemetria.
-          </p>
-
-
-          <span class="project-category">
-            Automação
-          </span>
-
-        </div>
-
-      </a>
-
-
-
-      <!-- =================================================
-           PROJETO 4
-      ================================================== -->
-
-      <a
-        href="https://SEU-LINK-AQUI.com"
-        target="_blank"
-        class="project-card"
-        data-category="sistema"
-        data-name="Controle de Pendências"
-      >
-
-        <div class="project-image">
-
-          <img
-            src="./img/doc.png"
-            alt="Controle de Pendências"
-          >
-
-        </div>
-
-
-        <div class="project-content">
-
-          <div class="card-arrow">
-
-            <i class="bi bi-arrow-up-right"></i>
-
-          </div>
-
-
-          <h3>
-            Controle de Pendências
-          </h3>
-
-
-          <p>
-            Gestão de tarefas, responsáveis, prazos
-            e status das pendências.
+            Sistema para controle e acompanhamento
+            das atividades de Monitrips.
           </p>
 
 
@@ -1150,109 +1296,6 @@
 
       </a>
 
-
-
-      <!-- =================================================
-           PROJETO 5
-      ================================================== -->
-
-      <a
-        href="https://SEU-LINK-AQUI.com"
-        target="_blank"
-        class="project-card"
-        data-category="dashboard"
-        data-name="Dashboard de Peças"
-      >
-
-        <div class="project-image">
-
-          <img
-            src="./img/MONITRIP.png"
-            alt="Dashboard de Peças"
-          >
-
-        </div>
-
-
-        <div class="project-content">
-
-          <div class="card-arrow">
-
-            <i class="bi bi-arrow-up-right"></i>
-
-          </div>
-
-
-          <h3>
-            Dashboard de Peças
-          </h3>
-
-
-          <p>
-            Acompanhamento de movimentações,
-            estoque e indicadores de peças.
-          </p>
-
-
-          <span class="project-category">
-            Dashboard
-          </span>
-
-        </div>
-
-      </a>
-
-
-
-      <!-- =================================================
-           PROJETO 6
-      ================================================== -->
-
-      <a
-        href="https://SEU-LINK-AQUI.com"
-        target="_blank"
-        class="project-card"
-        data-category="automacao"
-        data-name="Automação de Relatórios"
-      >
-
-        <div class="project-image">
-
-          <img
-            src="./img/dash.png"
-            alt="Automação de Relatórios"
-          >
-
-        </div>
-
-
-        <div class="project-content">
-
-          <div class="card-arrow">
-
-            <i class="bi bi-arrow-up-right"></i>
-
-          </div>
-
-
-          <h3>
-            Automação de Relatórios
-          </h3>
-
-
-          <p>
-            Geração e envio automatizado de relatórios
-            e informações operacionais.
-          </p>
-
-
-          <span class="project-category">
-            Automação
-          </span>
-
-        </div>
-
-      </a>
 
 
     </div>
